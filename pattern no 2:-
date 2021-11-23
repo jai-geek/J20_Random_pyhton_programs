@@ -1,0 +1,26 @@
+pattern no 2:-
+
+               A
+               B C
+               C D E
+               D E F G
+solution:-
+
+a=int(input("number"))
+i=1
+alpha = 65
+
+while(i<=a):
+    j= 1 
+    d= i
+    c= alpha
+    while(j<=d):
+      print(chr(c),end=" ")
+      c=c+1
+      j=j+1 
+      
+   
+    print("\n")
+    i=i+1
+    alpha+=1
+   
