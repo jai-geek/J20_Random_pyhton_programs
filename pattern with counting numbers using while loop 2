@@ -1,0 +1,19 @@
+pattern no 6:-
+                1 2 3 4 
+                1 2 3 4
+                1 2 3 4
+                1 2 3 4
+solution:-
+a=int(input("number"))
+i=1
+while(i<=a):
+    j=1
+    c=1
+    
+    while(j<=a):
+        print(c+j-1, end= " ")
+        j= j+ 1 
+        
+    print("\n")
+    i+=1
+   
