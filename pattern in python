@@ -1,2 +1,26 @@
 pattern no 1:-
+              D
+              C D
+              B C D
+              A B C D
+solution:-
+/*user input number of rows*/
+a=int(input("number"))
+i=1
+alpha = 68
 
+while(i<=a):
+    j= 1 
+    d= i
+    c= alpha
+    while(j<=i):
+      print(chr(c),end=" ")
+      c=c+1
+      j=j+1 
+     
+    print("\n")
+    i=i+1
+    alpha-=1
+    
+    
+   
