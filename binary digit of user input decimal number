@@ -1,0 +1,18 @@
+Python program to find binary digit from user input decimal number:-
+
+n=int(input("number"))
+result=0
+i=0
+
+#iterate until n will be 0
+while(n!=0):
+    digit=n&1
+    #formula approach for finding result
+    result=(digit*10**i)+result
+    
+    # n wil be right shift one by one digit
+    n=n>>1
+    
+    i+=1
+    
+print(result ,end=" ")
