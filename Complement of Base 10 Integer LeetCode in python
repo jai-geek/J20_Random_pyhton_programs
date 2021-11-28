@@ -19,8 +19,7 @@ Explanation: 7 is "111" in binary, with complement "000" in binary, which is 0 i
 
 Solution:-
 
-class Solution:
-    def bitwiseComplement(self, n: int) -> int:
+
         
         m=n
         mask=0
